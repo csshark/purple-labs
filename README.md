@@ -29,6 +29,11 @@ Purple Team is a specialist who is familiar with most of paths in cybersecurity 
 
 This repository is a personal collection of my Purple Team labs, where I simulate real-world attacks and test defensive tactics to migate threats and my cheatsheet to all topics that purple teaming is covering (Security Engineering, CyberSec Analysis, Threat Inteligence, Penetration Testing, Network Security, DevOps etc.). Here, you'll find detailed walkthroughs, screenshots, and insights from each lab I've performed, focusing on both *offensive* and *defensive* security practices. Here i share **my own** toughts on purple teaming while performing tests of real world scenarios and what have I learned.
 
+### Dictionary
+I use many proprietary abbreviations in this repository and my daily life. Here you will find all of them related to this repository:
+- <b>PTME</b> *(Purple Team Module Exercise)* - Main category of set of documents and configfiles related to my purple team efforts.
+- <b>SEE</b> *(Security Engineering Examples)* - A category covering my specialty (AppSec), where I share my approach and methods in Security Enginnering.
+- <b>CSIL</b> *(Cyber Security in Life)* - Examples of how do I used cybersecurity skills to aviod being scammed or discover phising sites. This category brilliantly demonstrates that cyber threats lurk at every turn.
 ### Can I learn from this repository? 
 
 Of course you can. However, it doesn't mean that this path that I took will be ideal for you, I do each PTME from scratch i.e. I create a project relevant to the chapter, which brings me to a certain level - for people without a foundation in cyber security, there is no point in looking here, you should gain knowledge at a basic level (e.g. CompTIA, IBM Proffessional CyberSec Analyst, etc.).
