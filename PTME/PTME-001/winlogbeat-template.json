@@ -1,0 +1,38 @@
+{ //Things that I added manually are commented 
+  "settings": {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 1,
+      "mode": "standard",
+      "lifecycle": {
+        "name": "winlogbeat-policy",
+        "rollover_alias": "winlogbeat"
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "@timestamp": { //this
+        "type": "date"
+      },
+      "event.action": { //this
+        "type": "keyword"
+      },
+      "event.dataset": { //this
+        "type": "keyword"
+      },
+      "event.type": { //this 
+        "type": "keyword"
+      },
+      "host.name": { //this
+        "type": "keyword"
+      },
+      "log.level": { //this
+        "type": "keyword"
+      },
+      "message": { //this
+        "type": "text"
+      }
+    }
+  }
+}
