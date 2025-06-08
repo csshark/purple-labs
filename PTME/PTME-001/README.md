@@ -60,7 +60,7 @@ During installation user will have to deal with pws (a lot). I have discovered t
 This command allows user to bypass weird security policies (even changing them as a root doesn't change anything, the system is going to ask for digital sign) totally. Followed 4 steps from <a href="https://www.elastic.co/downloads/beats/winlogbeat">documentation</a> and run service using command only from the link I provided.
 #### Configuration
 The only variable the user had to check was **output.elasticsearch: hosts** (and uncomment if commented by default) in ***winlogbeat.yml*** file. Here user needs to enter IPv4 of ELK Stack Virtual Machine (not *localhost* !).  
-Proper format of variable: **hosts: ["http://192.168.112.131:9200"] (do not forget about *http* again).  
+Proper format of variable: **hosts**: ["http://192.168.112.131:9200"] (do not forget about *http* again).  
 I check also if configfile has all needed winlogbeat event logs:  
 <pre><code>- name: Application  
 ignore_older: 72h  
