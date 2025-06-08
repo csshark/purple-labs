@@ -51,7 +51,7 @@ The second file to check is ***kibana.yml***.
 ![kibana.yml location](configfile2.png) 
 In this case we need to check two key variables:  
 - **server.host** must be set to *"0.0.0.0"*
-- **elasticsearch.hosts must be set to *["http://localhost:9200"]* (don't forget about *http* otherwise configfile will not switch to proper protocol and you won't be able to connect)
+- **elasticsearch.hosts** must be set to *["http://localhost:9200"]* (don't forget about *http* otherwise configfile will not switch to proper protocol and you won't be able to connect)
 
 ### 2. Installing Winlogbeat
 Winlogbeat is agent that is installed on Windows host that is used to collect system logs and is integrated with Logstash. It allows to analyze logs in real-time using our ELK Stack SIEM.  
